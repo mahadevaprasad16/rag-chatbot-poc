@@ -17,3 +17,14 @@ Vector Store: A vector database (e.g., ChromaDB, Pinecone, FAISS) stores and que
 LLM: A Large Language Model (e.g., Google Gemini, OpenAI GPT) generates the final response augmented by retrieved context.
 
 Goal: This POC serves as a foundational template for developing domain-specific applications. These applications can chat with private documents or proprietary data sources.
+
+Prerequisites
+A Google Cloud Project with billing enabled.
+
+The Google Cloud CLI (gcloud) installed and authenticated locally.
+
+The Cloud Build, Cloud Run, and Artifact Registry APIs enabled in your GCP project.
+
+Docker Desktop installed locally.
+
+
